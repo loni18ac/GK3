@@ -1,51 +1,9 @@
 var xhttp = new XMLHttpRequest();
 
-class User {
-    constructor(name, age, location) {
-    this.name = name;
-    this.age = age;
-    this.location = location;
-}
-postUser(){
-    var post = new XMLHttpRequest ();
-    Http.open("POST", "/");
-    Http.send();
 
-    Http.onreadystatechange = (e) => {
-    console.log(Http.responseText)
 
-    }
-}
 
-class FreeUser extends User {
-    constructor (name, age, location) {
-    this.name = name;
-    this.age = age;
-    this.location = location;
-}
-}
-class PaymentUser extends User {
-    constructor(name, age, location, CardName, CVV, CardNumber, Expire) {
-    this.name = name;
-    this.age = age;
-    this.location = location;
-    this.CardName =CardName;
-    this.CVV = CVV;
-    this.CardNumber = CardNumber;
-    this.Expire = Expire;
-    }
 
-}
-class Interest {
-    constructor(hobbies, occupation, sexualPreference) {
-    this.hobbies = hobbies;
-    this.occupation = occupation;
-    this.sexualPreference = sexualPreference;
-}
-}
-class Match{
-    
-}
 
 class Image{
     uploadfile(){
