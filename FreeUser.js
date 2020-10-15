@@ -5,3 +5,4 @@ class FreeUser extends User {
     this.location = location;
 }
 }
+module.exports = FreeUser

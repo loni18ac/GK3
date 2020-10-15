@@ -4,3 +4,5 @@ class User {
     this.age = age;
     this.location = location;
 }
+}
+module.exports=User

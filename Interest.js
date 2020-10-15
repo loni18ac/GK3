@@ -5,3 +5,4 @@ class Interest {
     this.sexualPreference = sexualPreference;
 }
 }
+module.exports=Interest

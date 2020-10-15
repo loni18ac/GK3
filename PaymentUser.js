@@ -10,3 +10,5 @@ class PaymentUser extends User {
     }
 
 }
+
+module.exports=PaymentUser
