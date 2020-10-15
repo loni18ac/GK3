@@ -1,3 +1,5 @@
+const User = require('./User')
+
 class FreeUser extends User {
     constructor (name, age, location) {
     this.name = name;

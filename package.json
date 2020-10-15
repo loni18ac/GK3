@@ -1,14 +1,25 @@
 {
   "name": "godkendelsesopgave3",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# GK3\" \r \"# GK3\"",
   "main": "Godkendelsesopgave3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon expressserver2.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loni18ac/GK3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loni18ac/GK3/issues"
+  },
+  "homepage": "https://github.com/loni18ac/GK3#readme"
 }

@@ -1,3 +1,5 @@
+const User = require('./User')
+
 class PaymentUser extends User {
     constructor(name, age, location, CardName, CVV, CardNumber, Expire) {
     this.name = name;
