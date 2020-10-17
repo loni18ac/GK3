@@ -34,6 +34,11 @@ Server.get('/user1', (req, res) => {
   res.send(harduser[0]);
 })
 
+const hardinterest = require('.Interest.js')
+Server.get('/Interest1', (req, res) => {
+  res.send(hardinterest[0]);
+})
+
 //User endpoint
 Server.post('/user/create', function (req, res){
   res.json({msg: "User created"})
