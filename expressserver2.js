@@ -21,13 +21,11 @@ Server.get('/user1', (req, res) => {
 })
 
 const hardmatch = require('./hardmatch.js')
-//indeholder array så det kan testes i postman
 Server.get('/match1', (req, res) => {
   res.send(hardmatch[0]);
 })
 
 const hardinterest = require('./hardinterest.js')
-//indeholder array så det kan testes i postman
 Server.get('/Interest1', (req, res) => {
   res.send(hardinterest[0]);
 })
