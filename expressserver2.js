@@ -13,7 +13,6 @@ const Server = express()
 const port = 3000
 //vi vælger port 3000, vi kunne også vælge fx 5000
 
-
 const harduser = require('./harduser.js')
 //indeholder array så det kan testes i postman
 Server.get('/user1', (req, res) => {
