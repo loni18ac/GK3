@@ -8,3 +8,5 @@ class FreeUser extends User {
 }
 }
 module.exports = FreeUser
+
+//Klassen FreeUser nedarver parent klassen, Users attributter, dvs. navn, alder, lokation.

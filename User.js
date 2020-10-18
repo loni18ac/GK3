@@ -6,3 +6,5 @@ class User {
 }
 }
 module.exports=User
+
+//Moderklassen User har attributterne navn, alder og lokation

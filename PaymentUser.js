@@ -14,3 +14,8 @@ class PaymentUser extends User {
 }
 
 module.exports=PaymentUser
+
+/*Underklassen PaymentUser nedarver Users attributter, men i forlængelse af disse har denne også 
+kreditkortdetaljer, da brugeren betaler for fordele, som endnu ikke er understreget i denne opgave.
+Det kunne fx være funktioner, der øger PaymentUsers mængde af daglige swipes og muligheden for at superlike.
+*/

@@ -42,7 +42,7 @@ Server.delete('/user/delete', function (req, res) {
 })
 /*
 Interest endpoint: besked, der sendes, når brugeren opretter en beskrivelse af sine interesser, 
-såsom hobbier, beskæftigelse seksuelle preferencer 
+såsom hobbier, beskæftigelse seksuelle præferencer 
 */
 Server.post('/interest/create', function (req, res) {
   res.json({msg: "Interest registered"})
