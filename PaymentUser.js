@@ -12,7 +12,6 @@ class PaymentUser extends User {
     }
 
 }
-
 module.exports=PaymentUser
 
 /*Underklassen PaymentUser nedarver Users attributter, men i forlængelse af disse har denne også 
